@@ -1,3 +1,4 @@
+/* Style général pour le corps de la page */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,13 +7,15 @@ body {
     color: #333;
 }
 
+/* Style pour l'en-tête */
 header {
-    background-color: #4CAF50;
+    background-color: #000080; /* Bleu marine */
     color: white;
     text-align: center;
     padding: 1em 0;
 }
 
+/* Style pour le menu de navigation */
 header nav ul {
     list-style: none;
     padding: 0;
@@ -26,8 +29,10 @@ header nav ul li {
 header nav ul li a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 
+/* Style pour le contenu principal */
 main {
     margin: 20px;
     padding: 20px;
@@ -35,10 +40,12 @@ main {
     border-radius: 8px;
 }
 
+/* Style pour les titres */
 h1, h2 {
-    color: #4CAF50;
+    color: #FF0000; /* Rouge */
 }
 
+/* Style pour les listes */
 ul {
     list-style-type: none;
     padding: 0;
@@ -48,6 +55,7 @@ ul li {
     margin: 10px 0;
 }
 
+/* Style pour le formulaire de contact */
 #contactForm {
     display: flex;
     flex-direction: column;
@@ -59,12 +67,29 @@ ul li {
 
 #contactForm input, #contactForm textarea, #contactForm button {
     margin-top: 5px;
+    padding: 10px;
+    border: 1px solid #000080; /* Bordure bleue */
+    border-radius: 5px;
 }
 
+/* Style pour le bouton du formulaire */
+#contactForm button {
+    background-color: #000080; /* Bleu marine */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contactForm button:hover {
+    background-color: #FF0000; /* Rouge */
+}
+
+/* Style pour le pied de page */
 footer {
     text-align: center;
     padding: 1em 0;
-    background-color: #4CAF50;
+    background-color: #000080; /* Bleu marine */
     color: white;
     position: fixed;
     width: 100%;
